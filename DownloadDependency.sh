@@ -219,6 +219,9 @@ wget https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.
 mkdir 44
 unzip startup-runtime-1.1.0.aar -d 44
 
+wget https://maven.google.com/androidx/core/core-splashscreen/1.0.0-beta01/core-splashscreen-1.0.0-beta01.aar
+mkdir 45
+unzip core-splashscreen-1.0.0-beta01.aar -d 45
 
 #Add necessary dependencies to your project
 #Ex.: 
