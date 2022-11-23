@@ -2,24 +2,24 @@
 mkdir Admob_Android_Dependency
 cd Admob_Android_Dependency
 
-wget https://maven.google.com/com/google/android/gms/play-services-ads/19.3.0/play-services-ads-19.3.0.aar
+wget https://maven.google.com/com/google/android/gms/play-services-ads/21.1.0/play-services-ads-21.1.0.aar
 mkdir 1
-unzip play-services-ads-19.3.0.aar -d 1/
+unzip play-services-ads-21.1.0.aar -d 1/
 
 
-wget https://maven.google.com/com/google/android/gms/play-services-ads-lite/19.3.0/play-services-ads-lite-19.3.0.aar
+wget https://maven.google.com/com/google/android/gms/play-services-ads-lite/21.1.0/play-services-ads-lite-21.1.0.aar
 mkdir 45
-unzip play-services-ads-lite-19.3.0.aar -d 45/
+unzip play-services-ads-lite-21.1.0.aar -d 45/
 
 
-wget https://maven.google.com/com/google/android/gms/play-services-basement/17.0.0/play-services-basement-17.0.0.aar
+wget https://maven.google.com/com/google/android/gms/play-services-basement/18.1.0/play-services-basement-18.1.0.aar
 mkdir 47
-unzip play-services-basement-17.0.0.aar -d 47/
+unzip play-services-basement-18.1.0.aar -d 47/
 
 
-wget https://maven.google.com/androidx/browser/browser/1.0.0/browser-1.0.0.aar
+wget https://maven.google.com/androidx/browser/browser/1.4.0/browser-1.4.0.aar
 mkdir 48
-unzip browser-1.0.0.aar -d 48/
+unzip browser-1.4.0.aar -d 48/
 
 
 
@@ -53,18 +53,19 @@ unzip play-services-base-17.0.0.aar -d 53/
 
 
 
-wget https://maven.google.com/com/google/android/gms/play-services-ads-identifier/17.0.0/play-services-ads-identifier-17.0.0.aar
+wget https://maven.google.com/com/google/android/gms/play-services-ads-identifier/18.0.1/play-services-ads-identifier-18.0.1.aar
 mkdir 54
-unzip play-services-ads-identifier-17.0.0.aar -d 54/
+unzip play-services-ads-identifier-18.0.1.aar -d 54/
 
 
-wget https://maven.google.com/com/google/android/gms/play-services-ads-base/19.3.0/play-services-ads-base-19.3.0.aar
+wget https://maven.google.com/com/google/android/gms/play-services-ads-base/21.1.0/play-services-ads-base-21.1.0.aar
 mkdir 55
-unzip play-services-ads-base-19.3.0.aar -d 55/
+unzip play-services-ads-base-21.1.0.aar -d 55/
 
-wget https://maven.google.com/com/google/android/gms/play-services-gass/19.3.0/play-services-gass-19.3.0.aar
-mkdir 56
-unzip play-services-gass-19.3.0.aar -d 56/
+#Migrado para play-services-ads-21.1.0.aar
+#wget https://maven.google.com/com/google/android/gms/play-services-gass/20.0.0/play-services-gass-20.0.0.aar
+#mkdir 56
+#unzip play-services-gass-20.0.0.aar -d 56/
 
 wget https://maven.google.com/com/google/android/gms/play-services-measurement/18.0.0/play-services-measurement-18.0.0.aar
 mkdir 57
@@ -75,9 +76,9 @@ wget https://maven.google.com/com/google/android/gms/play-services-measurement-b
 mkdir 58
 unzip play-services-measurement-base-18.0.0.aar -d 58/
 
-wget https://maven.google.com/com/google/android/gms/play-services-tasks/17.0.0/play-services-tasks-17.0.0.aar
+wget https://maven.google.com/com/google/android/gms/play-services-tasks/18.0.2/play-services-tasks-18.0.2.aar
 mkdir 59
-unzip play-services-tasks-17.0.0.aar -d 59/
+unzip play-services-tasks-18.0.2.aar -d 59/
 
 wget https://maven.google.com/com/google/android/gms/play-services-stats/17.0.0/play-services-stats-17.0.0.aar
 mkdir 60
@@ -172,6 +173,38 @@ cp firebase-encoders-17.0.0.jar 677/classes.jar
 wget https://maven.google.com/com/google/firebase/firebase-measurement-connector/20.0.0/firebase-measurement-connector-20.0.0.aar
 mkdir 678
 unzip firebase-measurement-connector-20.0.0.aar -d 678
+
+
+#Extras
+wget https://maven.google.com/androidx/work/work-runtime/2.7.1/work-runtime-2.7.1.aar
+mkdir 680
+unzip work-runtime-2.7.1.aar -d 680
+
+wget https://maven.google.com/com/google/android/gms/play-services-appset/16.0.2/play-services-appset-16.0.2.aar
+mkdir 681
+unzip play-services-appset-16.0.2.aar -d 681
+
+
+#Mais
+wget https://maven.google.com/androidx/room/room-runtime/2.4.3/room-runtime-2.4.3.aar
+mkdir 682
+unzip room-runtime-2.4.3.aar -d 682
+
+wget https://maven.google.com/androidx/room/room-common/2.4.3/room-common-2.4.3.jar
+mkdir 683
+cp room-common-2.4.3.jar 683/classes.jar
+
+wget https://maven.google.com/androidx/sqlite/sqlite-framework/2.2.0/sqlite-framework-2.2.0.aar
+mkdir 684
+unzip sqlite-framework-2.2.0.aar -d 684
+
+wget https://maven.google.com/androidx/sqlite/sqlite/2.2.0/sqlite-2.2.0.aar
+mkdir 685
+unzip sqlite-2.2.0.aar -d 685
+
+wget https://maven.google.com/androidx/lifecycle/lifecycle-service/2.4.0/lifecycle-service-2.4.0.aar
+mkdir 686
+unzip lifecycle-service-2.4.0.aar -d 686
 
 
 
