@@ -35,9 +35,9 @@ mkdir 7
 unzip vectordrawable-1.1.0.aar -d 7
 
 
-wget https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.4.0/appcompat-resources-1.4.0.aar
+wget https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.4.2/appcompat-resources-1.4.2.aar
 mkdir 8
-unzip appcompat-resources-1.4.0.aar -d 8
+unzip appcompat-resources-1.4.2.aar -d 8
 
 
 wget https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.0/kotlin-stdlib-1.6.0.jar
@@ -205,9 +205,9 @@ mkdir 41
 unzip core-1.7.0.aar -d 41
 
 
-wget https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.4.0/appcompat-1.4.0.aar
+wget https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.4.2/appcompat-1.4.2.aar
 mkdir 42
-unzip appcompat-1.4.0.aar -d 42
+unzip appcompat-1.4.2.aar -d 42
 
 
 wget https://repo1.maven.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.jar
@@ -222,6 +222,14 @@ unzip startup-runtime-1.1.0.aar -d 44
 wget https://maven.google.com/androidx/core/core-splashscreen/1.0.0-beta01/core-splashscreen-1.0.0-beta01.aar
 mkdir 45
 unzip core-splashscreen-1.0.0-beta01.aar -d 45
+
+
+
+wget https://maven.google.com/androidx/resourceinspection/resourceinspection-annotation/1.0.1/resourceinspection-annotation-1.0.1.jar
+mkdir 46
+cp resourceinspection-annotation-1.0.1.jar 46/classes.jar
+
+
 
 #Add necessary dependencies to your project
 #Ex.: 
